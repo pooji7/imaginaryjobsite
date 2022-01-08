@@ -1,0 +1,21 @@
+body{
+  background-image: url("web3.jpg");
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  color: white;
+  text-align: left;
+}
+
+h1{
+  text-align:center;
+}
+p{
+    text-align:center;
+}
+marquee{
+  color:pink;
+}
+a{
+  color:white
+}

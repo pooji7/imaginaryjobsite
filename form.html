@@ -1,0 +1,40 @@
+<link rel="stylesheet" type="text/css" href="style1.css">
+<h1>BUNGEE REGISTRATION FORM</h1>
+
+<script>
+  function handleonchangeevent(x){
+    document.bgColor=x;
+  }
+  </script>
+  <select onchange="handleonchangeevent(this.value)">
+    <option value="">theme</option>
+    <option value="0a0a0f">Black</option>
+    <option value="#bfbfbf">Grey</option>
+    <option value="pink">Pink</option>
+    <option value="#ffffb3">Eye comfort</option>
+  </select>
+
+<form method="GET">
+  <h3>First name:<input type="text" name="Firstname"><br/></h3>
+  <h3>Last name:<input type="text" name="Lastname"><br/></h3>
+  <h3>Email:<input type="email" name="Email"><br/></h3>
+  <h3>Password:<input type="password" name="password" min="7"><br/></h3>
+  <h3>Contact number:<input type="text" name="contact number" min="10" max="10"><br/></h3>
+  <h3>DOB:<input type="text" name="date of birth"><br/></h3>
+  <h3>Gender:<br/></h3>
+  <h4><input type="radio" name="gender" value="male">Male<br/></h4>
+  <h4><input type="radio" name="gender" value="female">Female<br/></h4>
+  <h4><input type="radio" name="gender" value="trans">Special people<br/></h4>
+  <h3>Differently abled people:<br/></h3>
+  <h4><input type="radio" name="ability" value="ability">Yes<br/></h4>
+  <h4><input type="radio" name="ability" value="ability">No<br/></h4>
+  <h3>Allergic to anything:<br/></h3>
+  <h4><input type="radio" name="Allergic" value="Allergic">travelling<br/></h4>
+  <h4><input type="radio" name="Allergic" value="Allergic">food type[seafood,greens,vegetables,fruits]<br/></h4>
+  <h4><input type="radio" name="Allergic" value="Allergic">medicines<br/></h4>
+  <h4><input type="radio" name="Allergic" value="Allergic">climate<br/></h4>
+  <h4><input type="radio" name="Allergic" value="Allergic">other type of allergy<br/></h4>
+  <h3><input type="submit" value="register"></h3>
+  <h3><input type="reset"></h3>
+  <a href="https://mailchi.mp/8026711e7599/a-imaginary-job-site">GET A MAIL!!</a>
+</form>
